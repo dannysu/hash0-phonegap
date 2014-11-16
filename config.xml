@@ -7,7 +7,7 @@
     <author email="contact@dannysu.com" href="http://dannysu.com">
         Danny Su
     </author>
-    <content src="index.html" />
+    <content src="app/index.html" />
     <preference name="permissions" value="none" />
     <preference name="phonegap-version" value="3.5.0" />
     <preference name="orientation" value="default" />
