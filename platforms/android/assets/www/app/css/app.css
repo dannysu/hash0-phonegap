@@ -1,0 +1,87 @@
+/* app css stylesheet */
+
+body {
+    min-width:480px;
+    min-height:800px;
+}
+
+.outer-box {
+    width: 100%;
+
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+
+    display: -moz-box;
+    -moz-box-align: center;
+    -moz-box-pack: center;
+
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+
+    display: box;
+    box-align: center;
+    box-pack: center;
+}
+
+.ui-icon-demo-help,
+.ui-icon-demo-set {
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 30px 30px;
+}
+
+.ui-toggle-checked .ui-icon-demo-help{
+	background-image: url(../img/help.light.png);
+}
+
+.ui-toggle-unchecked .ui-icon-demo-help{
+	background-image: url(../img/help.dark.png);
+}
+
+.ui-toggle-checked .ui-icon-demo-set{
+	background-image: url(../img/set.light.png);
+}
+
+.ui-toggle-unchecked .ui-icon-demo-set{
+	background-image: url(../img/set.dark.png);
+}
+
+.ui-btn-up-a .ui-icon-demo-help,
+.ui-btn-hover-a .ui-icon-demo-help,
+.ui-btn-down-b .ui-icon-demo-help{
+	background-image: url(../img/help.dark.png);
+}
+
+.ui-btn-up-b .ui-icon-demo-help,
+.ui-btn-hover-b .ui-icon-demo-help,
+.ui-btn-down-a .ui-icon-demo-help{
+	background-image: url(../img/help.light.png);
+}
+
+.ui-btn-up-a .ui-icon-demo-set,
+.ui-btn-hover-a .ui-icon-demo-set,
+.ui-btn-down-b .ui-icon-demo-set{
+	background-image: url(../img/set.dark.png);
+}
+
+.ui-btn-up-b .ui-icon-demo-set,
+.ui-btn-hover-b .ui-icon-demo-set,
+.ui-btn-down-a .ui-icon-demo-set{
+	background-image: url(../img/set.light.png);
+}
+
+.ui-btn-input-like {
+    background-color: #BFBFBF;
+    border: 0px;
+    font-weight: normal;
+}
+
+.ui-checkbox {
+    width: 100%;
+}
+
+.ui-checkbox .nowrap {
+    white-space: nowrap;
+}

@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:6
+-keep class pw.hash0.mobile.hash0 { <init>(...); }
+
