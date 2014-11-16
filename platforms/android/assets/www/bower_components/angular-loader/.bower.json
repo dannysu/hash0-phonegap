@@ -1,0 +1,19 @@
+{
+  "name": "angular-loader",
+  "version": "1.2.27-build.555+sha.16833d0",
+  "main": "./angular-loader.js",
+  "ignore": [],
+  "dependencies": {
+    "angular": "1.2.27-build.555+sha.16833d0"
+  },
+  "homepage": "https://github.com/angular/bower-angular-loader",
+  "_release": "1.2.27-build.555+sha.16833d0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.2.27-build.555+sha.16833d0",
+    "commit": "c7283792248ded4579da533c71e3a4eab93781f9"
+  },
+  "_source": "git://github.com/angular/bower-angular-loader.git",
+  "_target": "1.2.x",
+  "_originalSource": "angular-loader"
+}
